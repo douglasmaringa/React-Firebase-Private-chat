@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+.list{
+    background-color: saddlebrown;
+    padding: 100px;
+}
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    --offset: var(--space);
+  /* ... */
+  position: sticky;
+  top: var(--offset);
+}
